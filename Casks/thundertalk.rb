@@ -15,7 +15,7 @@ cask "thundertalk" do
 
   auto_updates true
   depends_on arch: :arm64
-  depends_on macos: :big_sur
+  depends_on macos: :sequoia
 
   app "ThunderTalk.app"
 
