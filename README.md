@@ -6,4 +6,4 @@ Homebrew tap for [ThunderTalk](https://github.com/realAllenSong/ThunderTalk), fr
 brew install --cask realallensong/tap/thundertalk
 ```
 
-Apple Silicon, macOS 12 or later. The app updates itself; `brew upgrade --cask thundertalk` works too.
+Apple Silicon, macOS 11 or later. The app updates itself; `brew upgrade --cask thundertalk` works too.
