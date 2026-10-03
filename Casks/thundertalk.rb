@@ -1,6 +1,6 @@
 cask "thundertalk" do
-  version "1.6.3"
-  sha256 "e4fd489148bdb702b2627cf737d54726b629824c5e7fd7f2b4c3715ae48830f4"
+  version "1.6.4"
+  sha256 "019a3ed70fe89afa365dece1e4426a49ff1644f0d3f7545c6bedb8d76ae51708"
 
   url "https://github.com/realAllenSong/ThunderTalk/releases/download/v#{version}/ThunderTalk-v#{version}-macOS.zip",
       verified: "github.com/realAllenSong/ThunderTalk/"
