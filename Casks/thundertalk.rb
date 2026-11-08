@@ -19,14 +19,6 @@ cask "thundertalk" do
 
   app "ThunderTalk.app"
 
-  # The app is signed ad hoc, not notarised; without this macOS refuses to
-  # open it the first time ("ThunderTalk can't be opened").
-  postflight do
-    system_command "/usr/bin/xattr",
-                   args: ["-dr", "com.apple.quarantine", "#{appdir}/ThunderTalk.app"],
-                   sudo: false
-  end
-
   zap trash: [
     "~/.thundertalk",
     "~/Library/Preferences/com.thundertalk.app.plist",
