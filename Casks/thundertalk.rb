@@ -2,8 +2,7 @@ cask "thundertalk" do
   version "1.15.0"
   sha256 "c692277bd405699ad220c6dc60e720c489e41d6bcf1209ab4c23004f18a93387"
 
-  url "https://github.com/realAllenSong/ThunderTalk/releases/download/v#{version}/ThunderTalk-v#{version}-macOS.zip",
-      verified: "github.com/realAllenSong/ThunderTalk/"
+  url "https://github.com/realAllenSong/ThunderTalk/releases/download/v#{version}/ThunderTalk-v#{version}-macOS.zip"
   name "ThunderTalk"
   desc "Local voice input, transcription and text-to-speech"
   homepage "https://realallensong.github.io/ThunderTalk/"
